@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Metrophobic&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Langar', cursive;
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    background: rgba(66, 65, 65, 0.6) !important;
+    padding: 20px 0px;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#1fdbbf !important; 
+}
+
+ .background img{
+    height: 100vh;
+    width: 100%;
+    
+         
+    
+}  
+
+.heading-content{
+    position: absolute;
+    top: 55%;
+    background-color: rgba(66, 65, 65, 0.6);
+    margin-left: 12px;
+    
+    
+
+    
+    width: 98%;
+    max-width: 100%;
+
+}
+.heading-content h5{
+    font-size: 3rem;
+    font-weight: 300;
+    color:yellow;
+    font-family: monospace;
+}
+
+.heading-content h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(238, 245, 247);
+    font-family: serif;
+}
+
+.heading-content p{
+    font-size: 2rem;
+    font-weight: 300;
+    color:yellow;
+    font-family: monospace;
+}
+
+/*    -------------------about ----------------*/
+
+#about .btn{
+    border: 2px solid red;
+    width: 40%;
+    padding: 15px 20px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#about .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+/*    -------------------newsletter ----------------*/
+
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #9ed8f5;
+}
+
+
